@@ -60,7 +60,7 @@ npx @huajiwuyan/hello -h
 
 **Codex CLI:**
 ```
-~hello
+/hello
 ```
 
 ## 许可证
