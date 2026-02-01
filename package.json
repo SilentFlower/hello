@@ -1,0 +1,38 @@
+{
+  "name": "@huajiwuyan/hello",
+  "version": "3.0.2",
+  "description": "HelloAGENTS 交互式安装器 - 支持 Claude Code 和 Codex CLI",
+  "type": "module",
+  "bin": {
+    "hello": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "templates"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "helloagents",
+    "claude",
+    "codex",
+    "cli",
+    "installer"
+  ],
+  "author": "huajiwuyan",
+  "license": "MIT",
+  "dependencies": {
+    "@clack/prompts": "^0.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.1.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
