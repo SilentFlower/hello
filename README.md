@@ -48,19 +48,18 @@ npx @huajiwuyan/hello -h
 | Codex CLI | `~/.codex` |
 
 安装内容：
-- `skills/helloagents/` - HelloAGENTS 技能模块
-- `commands/hello.md`（Claude）或 `prompts/hello.md`（Codex）- 命令入口
+- `skills/helloagents/` - HelloAGENTS 技能模块（包含完整规则和动态加载索引）
 
 ## 安装后使用
 
 **Claude Code:**
 ```
-/hello
+/helloagents
 ```
 
 **Codex CLI:**
 ```
-/hello
+/helloagents
 ```
 
 ## 许可证
